@@ -1,1 +1,697 @@
-{"brand_title":"Max Goff X Virality Score","brand_handle":"@maxgoff","operator":{"handle":"@maxgoff","name":"Max Goff","profile_url":"https://x.com/maxgoff"},"ui":{"default_theme":"night"},"board_features":{"count_up":true,"live_pulse":true,"theme_toggle":true,"themes":["night","day"],"grok_ambient":true,"week_month_boards":true,"day_roster_best_total":true,"day_compare_chart":true,"week_strip":true,"no_hits_reasons":true,"marker_class":"xvs-dash-2026"},"title":"Daily X narrative digest — 2026-09-28","date":"2026-09-28","timezone":"America/Chicago","updated":"2026-09-28T10:38:26-05:00","hits_count":9,"total_views":537614,"hits":[{"name":"Ethan Mollick","handle":"@emollick","views":374114,"url":"https://x.com/emollick/status/2104273082433081732","hook":"Mollick on the agentic bank-run thesis: systems that only work because of friction are about to get stress-tested.","highlight":true,"draft_en":"Ethan Mollick's line is the right framing for Apollo's agentic bank run note: a lot of systems only work today because friction keeps people from optimizing.\n\nTorsten Slok's version is deposits. Checking pays ~0.1%. Fintechs pay 3-5%. Household inertia is the moat. An agent that sweeps cash for yield removes that moat at machine speed.\n\nThe same pattern shows up in software:\n1. Manual review that only works because volume is low\n2. Nobody will bother security assumptions\n3. Pricing that depends on customers not shopping every week\n\nIf your product or process needs human laziness to stay stable, treat that as a bug, not a feature. Design for the day the agent removes the friction.","video_tip":"Cut the Apollo yield bar chart for 8 seconds, then a whiteboard: Friction -> Inertia -> Cheap deposits. Cross out Inertia. 40 seconds."},{"name":"Ethan Mollick","handle":"@emollick","views":33635,"url":"https://x.com/emollick/status/2104402002868592659","hook":"Mollick used Opus 5.5 to make a Connections-style video of the contingent path into the current AI moment.","highlight":true,"draft_en":"Ethan Mollick had Opus 5.5 build a Connections-style video about the random contingencies that produced today's AI acceleration.\n\nThe useful move is not AI made a cool explainer. It is using a model to surface the non-obvious dependency chain: which ideas, papers, and accidents had to line up.\n\nI would steal the format for internal work:\n- Why did this product decision become inevitable?\n- Which three bets had to work for our agent stack to ship?\n- What would a junior engineer miss if they only read the launch blog?\n\nAsk for a timeline of contingencies, not a victory lap. The value is in the junctions, not the montage.","video_tip":"MEDIA WARNING: 3-minute video; only saw the thumbnail. Screen-record 20 seconds of the opening frame, then cut to your own 3-node contingency map."},{"name":"Ethan Mollick","handle":"@emollick","views":33260,"url":"https://x.com/emollick/status/2104326478766952624","hook":"Mollick: the open vs closed gap widened; Fable/Astra-class models are agentic in a way open models are not yet.","highlight":true,"draft_en":"Ethan Mollick's qualitative read matches what I see in day-to-day agent work: the open vs closed gap is wider again, and the split is about agency, not chat quality.\n\nFable/Astra-class models plan, call tools, and recover from failed steps in a way that changes the product shape. Pre-Fable models and current open weights still need you to hold the loop.\n\nWhat that means practically:\n- Keep your skill API and memory layer model-agnostic\n- Measure tasks finished without a human nudge, not just tokens/sec\n- When open models cross that line, expect a jump, not a gentle catch-up\n\nDo not rebuild your stack around one closed model. Build so you can swap the day an open model starts finishing the job.","video_tip":"Talking-head, 30 seconds: two columns on a notepad, Closed vs Open. Circle unassisted task completion."},{"name":"Ethan Mollick","handle":"@emollick","views":27024,"url":"https://x.com/emollick/status/2104447068731555883","hook":"Mollick: every field's smart commentators will have to relearn the same AI topics. Eternal September for AI discourse.","highlight":true},{"name":"Jerry Liu","handle":"@jerryjliu0","views":21987,"url":"https://x.com/jerryjliu0/status/2104274312308154604","hook":"Jerry Liu on the Devin/Hermes story: less a product failure, more a sales-enablement and packaging problem.","highlight":true},{"name":"Ethan Mollick","handle":"@emollick","views":17469,"url":"https://x.com/emollick/status/2104352301431308578","hook":"Mollick dunks on LinkedIn LLM-eval slop that still leads with BLEU, ROUGE, and BERTScore for agentic systems.","highlight":true},{"name":"Hamel Husain","handle":"@HamelHusain","views":12027,"url":"https://x.com/HamelHusain/status/2104271592029307272","hook":"Hamel: a good human agent with AI skills, taste, and agency still beats a pile of AI agents for transforming a business.","highlight":true},{"name":"Hamel Husain","handle":"@HamelHusain","views":10992,"url":"https://x.com/HamelHusain/status/2104305090743992821","hook":"Hamel FAQ: Jev and LLM judges are both classifiers; validate them against trusted labels, not vibes.","highlight":true},{"name":"Hamel Husain","handle":"@HamelHusain","views":7106,"url":"https://x.com/HamelHusain/status/2104313489934393372","hook":"Hamel cheers Quail and the FS Data Lab: AI-SQL inference scheduling with early performance numbers.","highlight":false}],"reply_now":[{"handle":"@_philschmid","name":"Philipp Schmid","url":"https://x.com/_philschmid/status/2104588437454012454","views":1368,"age_label":"27m","age_hours":0.46,"reply_draft":"Env vars are not a secret boundary inside an agent sandbox. Anything the process can read, a dependency can exfiltrate. Inject secrets on the wire for trusted domains only, and keep raw tokens out of the sandbox filesystem."},{"handle":"@emollick","name":"Ethan Mollick","url":"https://x.com/emollick/status/2104447068731555883","views":27024,"age_label":"9.8h","age_hours":9.82,"reply_draft":"Eternal September is a content ops problem as much as a culture one. Keep a one-page what changed this quarter note with durable claims only: permissions, evals, cost. Reuse it every time a new audience rediscovers the same debates."},{"handle":"@emollick","name":"Ethan Mollick","url":"https://x.com/emollick/status/2104402002868592659","views":33635,"age_label":"12.8h","age_hours":12.8,"reply_draft":"The Connections format works when it maps contingencies, not vibes. I would run the same prompt on our own stack: which three unrelated bets had to land for the agent workflow to ship. The junctions are the lesson."},{"handle":"@emollick","name":"Ethan Mollick","url":"https://x.com/emollick/status/2104352301431308578","views":17469,"age_label":"16.1h","age_hours":16.1,"reply_draft":"BLEU and ROUGE answer string overlap. Agents fail on tool choice, unsafe actions, and unfinished jobs. If the scorecard cannot show task success plus intervention rate, it is measuring the wrong system."},{"handle":"@emollick","name":"Ethan Mollick","url":"https://x.com/emollick/status/2104326478766952624","views":33260,"age_label":"17.8h","age_hours":17.81,"reply_draft":"The gap that matters is unassisted loop completion, not chat quality. Keep skills and memory model-agnostic so you can swap the day an open model starts finishing the job without a babysitter."},{"handle":"@HamelHusain","name":"Hamel Husain","url":"https://x.com/HamelHusain/status/2104313489934393372","views":7106,"age_label":"18.7h","age_hours":18.67,"reply_draft":"The part to watch is whether query-plus-inference planning holds on messy multi-join workloads, not the launch meme. If throughput stays real, warehouse-touching agents stop being a cost joke."},{"handle":"@HamelHusain","name":"Hamel Husain","url":"https://x.com/HamelHusain/status/2104305090743992821","views":10992,"age_label":"19.2h","age_hours":19.22,"reply_draft":"Same rule I use: treat every judge as a classifier. Label a trusted set, report TPR and TNR, and only then scale. Accuracy on imbalanced eval data is how teams fool themselves."},{"handle":"@jerryjliu0","name":"Jerry Liu","url":"https://x.com/jerryjliu0/status/2104274312308154604","views":21987,"age_label":"21.3h","age_hours":21.26,"reply_draft":"Agree. When a happy user can stand up an equivalent stack in two days, sales packaging is part of the product. Compliance paperwork as an upsell is how you donate the account to self-host."}],"virals":[{"name":"Yano","handle":"@JasonYanowitz","views":3791640,"url":"https://x.com/JasonYanowitz/status/2104213040937812262","hook":"Apollo chief economist Torsten Slok: agentic assistants could sweep household cash into 3-5% yields and drain cheap bank deposits."},{"name":"Cognition","handle":"@cognition","views":1084557,"url":"https://x.com/cognition/status/2103500168951955718","hook":"Cognition says Devin crossed $1B annualized revenue run rate (context for the sales/switching debate)."},{"name":"Gio Huh","handle":"@giohuh_","views":620281,"url":"https://x.com/giohuh_/status/2103671433679224912","hook":"HomeBody: GPT Astra on a Unitree G1 with spatial memory tidies an unseen kitchen (still circulating)."}],"patterns":["Agentic finance risk: friction-dependent systems break when agents optimize yield","Coding-agent switching costs collapsing: Devin vs self-hosted Hermes in ~two days","Open vs closed gap framed as agency (Fable/Astra loop completion), not chat quality","Eval hygiene: Jev/LLM judges are classifiers; TPR/TNR over accuracy"],"day_roster":[{"handle":"@emollick","name":"Ethan Mollick","views":374114,"hits":5,"hit":true},{"handle":"@jerryjliu0","name":"Jerry Liu","views":21987,"hits":1,"hit":true},{"handle":"@HamelHusain","name":"Hamel Husain","views":12027,"hits":3,"hit":true},{"handle":"@_philschmid","name":"Philipp Schmid","views":1847,"hits":0,"hit":false},{"handle":"@maxgoff","name":"Max Goff","views":0,"hits":0,"hit":false,"is_you":true}],"you_rank":{"best_views":null,"total_views":null,"posts":0,"rank_among_watchlist":null,"total_accounts":15,"note":"No original @maxgoff posts in the 24h window (last original: Sep 26).","vs_5k":"pending","vs_10k":"pending"},"leaderboards":{"as_of":"2026-09-28","tracking_start":"2026-09-26","days_included":["2026-09-26","2026-09-27","2026-09-28"],"month_days_included":["2026-09-26","2026-09-27","2026-09-28"],"week":{"label":"Rolling week · Sep 26–Sep 28","range":["2026-09-26","2026-09-30"],"entries":[{"handle":"@emollick","name":"Ethan Mollick","hits":22,"days":3,"views":1177076,"best":374114,"best_url":"https://x.com/emollick/status/2104273082433081732"},{"handle":"@simonw","name":"Simon Willison","hits":4,"days":2,"views":671348,"best":547279,"best_url":"https://x.com/simonw/status/2103288927805476900"},{"handle":"@sh_reya","name":"Shreya Shankar","hits":3,"days":2,"views":276003,"best":263924,"best_url":"https://x.com/sh_reya/status/2103207153821688056"}]},"month":{"label":"September 2026 · from Sep 26","range":["2026-09-26","2026-09-30"],"entries":[{"handle":"@emollick","name":"Ethan Mollick","hits":22,"days":3,"views":1177076,"best":374114,"best_url":"https://x.com/emollick/status/2104273082433081732"},{"handle":"@simonw","name":"Simon Willison","hits":4,"days":2,"views":671348,"best":547279,"best_url":"https://x.com/simonw/status/2103288927805476900"},{"handle":"@sh_reya","name":"Shreya Shankar","hits":3,"days":2,"views":276003,"best":263924,"best_url":"https://x.com/sh_reya/status/2103207153821688056"}]}},"virals_window":"last ~48h (limited scan; some quoted context slightly older)","virals_target":20,"outsiders_count":8,"_pages_note":"board payload; full drafts in digests/2026-09-28/"}
+{
+  "brand_title": "Max Goff X Virality Score",
+  "brand_handle": "@maxgoff",
+  "operator": {
+    "handle": "@maxgoff",
+    "name": "Max Goff",
+    "profile_url": "https://x.com/maxgoff"
+  },
+  "ui": {
+    "default_theme": "night"
+  },
+  "board_features": {
+    "count_up": true,
+    "live_pulse": true,
+    "theme_toggle": true,
+    "themes": [
+      "night",
+      "day"
+    ],
+    "grok_ambient": true,
+    "week_month_boards": true,
+    "day_roster_best_total": true,
+    "day_compare_chart": true,
+    "week_strip": true,
+    "no_hits_reasons": true,
+    "marker_class": "xvs-dash-2026"
+  },
+  "title": "Daily X narrative digest — 2026-09-29",
+  "date": "2026-09-29",
+  "timezone": "America/Chicago",
+  "updated": "2026-09-29T10:35:06-05:00",
+  "hits_count": 18,
+  "total_views": 839647,
+  "hits": [
+    {
+      "name": "Andrew Ng",
+      "handle": "@AndrewYNg",
+      "views": 200250,
+      "url": "https://x.com/AndrewYNg/status/2104660347730969087",
+      "hook": "Andrew Ng: the OpenAI-Hugging Face hack was weak sandboxing; NVIDIA OpenShell plus OpenWorker put deterministic boundaries outside the LLM.",
+      "highlight": true,
+      "draft_en": "Andrew Ng's take on the OpenAI-Hugging Face incident is the right one for builders: the failure mode was weak sandboxing, not a missing prompt.\n\nNVIDIA's Open Agent Safety Platform (OpenShell + Sentry) and OpenWorker's plan to run each agent command inside a sandbox matter because the restrictions live in deterministic code. Prompting an LLM not to touch secrets is not a control plane.\n\nPractical checklist I use:\n1. Only task-relevant files enter the sandbox\n2. Secrets are injected on the wire for trusted domains, never as env vars the process can dump\n3. Network and browser credentials stay outside the agent by default\n4. Every action is logged for audit\n\nIf your agent security story still starts with \"the model usually obeys,\" you do not have a security story yet.",
+      "video_tip": "Talking-head 35s: draw Sandbox | Harness. Arrow secrets OUT of sandbox. Caption: Deterministic code, not prompts."
+    },
+    {
+      "name": "Simon Willison",
+      "handle": "@simonw",
+      "views": 135520,
+      "url": "https://x.com/simonw/status/2104682232522944909",
+      "hook": "Simon Willison: the real Sonnet 5.5 news is that free claude.ai users now get the capable model, while ChatGPT free is still on a weaker Luna tier.",
+      "highlight": true,
+      "draft_en": "Simon Willison's point cuts through the launch noise: Sonnet 5.5 matters most because it now powers the free tier on claude.ai.\n\nThat changes who can run serious agent workflows. Free Claude users get the model people are posting foliage simulators and coding loops with. ChatGPT free is still on GPT-5.6 Luna, which is a different product class.\n\nWhat I am watching:\n- How many \"I need Plus/Pro\" excuses disappear for demos and classroom work\n- Whether free-tier rate limits still gate real multi-step agents\n- Whether OpenAI matches on free capability or keeps Luna as a funnel\n\nCapability on the free tier is distribution. Treat it as a product decision, not a footnote.",
+      "video_tip": "Screen-record 10s of claude.ai free model picker, then a notepad: Free Sonnet 5.5 vs Free Luna. 30 seconds."
+    },
+    {
+      "name": "Ethan Mollick",
+      "handle": "@emollick",
+      "views": 92755,
+      "url": "https://x.com/emollick/status/2104787162210435095",
+      "hook": "Mollick re-runs the old \"remove the squid\" Claude gag with a modern model that can make movies, and notes the humor jump.",
+      "highlight": true,
+      "draft_en": "Ethan Mollick resurfaced his old \"remove the squid from All Quiet on the Western Front\" gag and asked a current Claude to show how far it has come, including movie-making.\n\nThe amusing part is real. The useful part is the eval idea underneath: keep a fixed absurd request and re-run it across model generations. Same prompt, same failure mode, measurable change in recovery and creativity.\n\nI keep a small set of sticky prompts for agent stacks:\n- A nonsense constraint the model should reject cleanly\n- A multi-step tool job that used to fail halfway\n- A permission boundary it used to invent around\n\nHumor is the signal. The regression suite is the system.",
+      "video_tip": "MEDIA WARNING: ~140s video; only saw thumbnail/API metadata. Cut 12s of the funniest beat, then overlay: Sticky absurd prompts = cheap capability probes."
+    },
+    {
+      "name": "Simon Willison",
+      "handle": "@simonw",
+      "views": 73084,
+      "url": "https://x.com/simonw/status/2104630129528037415",
+      "hook": "Simon Willison published annotated notes and transcript for his WeAreDevelopers 2026-in-LLMs keynote.",
+      "highlight": true,
+      "draft_en": "Simon Willison dropped detailed notes and an annotated transcript for his WeAreDevelopers closing keynote on LLMs and agents in 2026 so far.\n\nThis is the format I want more of from conference talks: not just the video, but a chronological map of what actually changed. Agents, tooling, evals, and the accidents that mattered.\n\nSteal the move for your own team:\n- After a talk or launch week, write the timeline of contingencies\n- Separate durable shifts (permissions, cost, loop completion) from demos\n- Link primary sources so juniors can re-walk the path\n\nA keynote without notes decays into vibes. Notes turn it into a working reference.",
+      "video_tip": "Open simonwillison.net post for 8s, then whiteboard: Video -> Notes -> Timeline of contingencies. 30 seconds."
+    },
+    {
+      "name": "swyx",
+      "handle": "@swyx",
+      "views": 55048,
+      "url": "https://x.com/swyx/status/2104741800393253322",
+      "hook": "swyx on OpenAI's cryptic \"Get ready\" teaser: oai designers have to be trolling us.",
+      "highlight": true,
+      "draft_en": "swyx's one-liner on OpenAI's \"Get ready\" art is the correct register for launch-week theater.\n\nTeasers print views. They rarely change how you ship agents tomorrow. When the product lands, measure it the same way you measure everything else: unassisted task completion, tool reliability, cost per finished job, and how hard it is to swap models.\n\nUntil then, keep your harness boring and your evals honest. Do not rebuild the stack around a cryptic poster.",
+      "video_tip": "Flash the Get ready image 5s, cut to notepad checklist: task success, cost, swap cost. Caption: Measure the drop, not the teaser. 25 seconds."
+    },
+    {
+      "name": "Ethan Mollick",
+      "handle": "@emollick",
+      "views": 45942,
+      "url": "https://x.com/emollick/status/2104632980635259336",
+      "hook": "Mollick: non-coders often surprise with AI because people have different limits than software, and old mental models get in the way.",
+      "highlight": true,
+      "draft_en": "Ethan Mollick's line about non-coders accomplishing unexpected things with AI matches what I see in agent demos.\n\nPeople bump into different walls than software. A developer who knows how the system \"should\" work often over-constrains the prompt. Someone without those habits asks for the outcome and lets the model thrash usefully.\n\nPractical takeaway for agent design:\n- Expose outcome-shaped interfaces, not only API-shaped ones\n- Watch where expert users refuse paths that novices try successfully\n- Treat \"old mental model\" friction as a product bug when it blocks useful exploration\n\nExpertise helps until it teaches you what not to attempt. Build for both modes.",
+      "video_tip": "Talking-head 30s: two sticky notes, Expert constraints vs Novice outcome ask. Circle: different limits than software."
+    },
+    {
+      "name": "Harrison Chase",
+      "handle": "@hwchase17",
+      "views": 42038,
+      "url": "https://x.com/hwchase17/status/2104610254000635952",
+      "hook": "Harrison Chase: retrieval is a decision problem; swapping embeddings for Jev in GPT Researcher jumped relevant context 46% to 73%.",
+      "highlight": true,
+      "draft_en": "Harrison Chase's framing is the one I want taped above every RAG debate: retrieval is a decision problem, not just a similarity problem.\n\nThe GPT Researcher experiment Assaf Elovic posted is concrete. Replacing embeddings with Jev lifted relevant context from 46% to 73% on their research tasks, with preferred reports in blind compares, at similar cost.\n\nWhat that implies for harness design:\n- Ranking and filtering context is an agent decision, not a vector math footnote\n- Decision models will show up across the harness, not only at the retriever\n- Keep the interface swappable so you can A/B embedding vs decision filters without rewriting the app\n\nIf your RAG story ends at cosine similarity, you are optimizing the wrong layer.",
+      "video_tip": "Whiteboard 35s: Similarity search -> Decision filter. Write 46% vs 73%. Circle: harness-level decision."
+    },
+    {
+      "name": "Jerry Liu",
+      "handle": "@jerryjliu0",
+      "views": 38924,
+      "url": "https://x.com/jerryjliu0/status/2104664536485888453",
+      "hook": "Jerry Liu: PageIndex-style tree RAG with no vector DB echoes his old GPT tree index; \"4 years too early.\"",
+      "highlight": true,
+      "draft_en": "Jerry Liu's joke lands because the shape is familiar: tree-structured retrieval that skips the classic chunk-embed-Pinecone path.\n\nPageIndex-style approaches (LLM walking a document tree like a human reading a book) will keep resurfacing whenever vector RAG feels heavy or brittle. Jerry's old GPT tree index was early on the same instinct.\n\nWhat I actually do with this:\n- Keep chunk+vector as a baseline, not a religion\n- Prototype tree or outline indexes on long structured docs (filings, manuals)\n- Score on grounded answer quality and citation precision, not architecture purity\n\nBeing early only hurts if you refuse to re-test when the ecosystem catches up.",
+      "video_tip": "Split screen: 2022 tree index screenshot vs 2026 \"no vector DB\" claim. Caption: Re-test the idea, do not worship the stack. 30 seconds."
+    },
+    {
+      "name": "Alex Albert",
+      "handle": "@alexalbert__",
+      "views": 36632,
+      "url": "https://x.com/alexalbert__/status/2104633937280811010",
+      "hook": "Alex Albert: Sonnet 5.5 feels like Opus 5.5 for iteration: clear writing, fast, big jump over Sonnet 5.",
+      "highlight": true,
+      "draft_en": "Alex Albert's quick take matches how I want to evaluate mid-tier models: does it feel good to iterate with, not just win a leaderboard screenshot.\n\nSonnet 5.5 as a faster, clearer jump over Sonnet 5 (with Opus-like feel on everyday agent work) is the practical story. Speed plus clarity changes how many loops you run before lunch.\n\nMy test for a new default model:\n1. Can I finish a real multi-tool task without babysitting?\n2. Are the written plans readable enough to diff?\n3. Does cost and latency still let me retry aggressively?\n\nShip the model you will actually loop on. Feel is a productivity metric.",
+      "video_tip": "Screen-record a 15s Sonnet 5.5 coding loop, then notepad: Finish loop / Readable plan / Cheap retries. 30 seconds."
+    },
+    {
+      "name": "Hamel Husain",
+      "handle": "@HamelHusain",
+      "views": 25053,
+      "url": "https://x.com/HamelHusain/status/2104600057307935151",
+      "hook": "Hamel highlights Clay's AI writing policy: stand behind every sentence, writing is thinking, do not outsource reader time.",
+      "highlight": true,
+      "draft_en": "Hamel pointing at Clay's AI writing policy is useful because the rules are operational, not vibes.\n\nThe four principles that matter for agent-assisted docs:\n1. You stand behind every idea and sentence\n2. Writing is thinking; skipping it leaves you dumber about the topic\n3. Do not make readers spend more time than you spent writing\n4. Longer is not better; AI loves empty padding\n\nI would add one for agent teams: every shared doc should name the human owner and the claims they personally verified. If the agent drafted it, the owner still owns it.\n\nPolicy beats prompt theater when the whole company can quote the same four lines.",
+      "video_tip": "Show Clay policy list for 10s, then underline: Owner named / Claims verified. 25 seconds."
+    },
+    {
+      "name": "Ethan Mollick",
+      "handle": "@emollick",
+      "views": 18489,
+      "url": "https://x.com/emollick/status/2104737094073729440",
+      "hook": "Mollick: AI's GDP share already exceeds the railroad peak, but AI does not dominate employment or horsepower the way rail did in 1890.",
+      "highlight": true,
+      "draft_en": "Ethan Mollick's railroad comparison is a useful cold shower on \"AI already ate the economy\" takes.\n\nThe AI buildout as a share of GDP can exceed the railroad peak while everyday employment and machine horsepower still look nothing like 1890, when roughly 1 in 12 American men worked on railways and rail used most machine horsepower.\n\nFor agent builders that means:\n- Capex narratives and lived diffusion are different clocks\n- Measure adoption in finished workflows, not just spend\n- Expect a long gap where infrastructure spend leads use by years\n\nDo not confuse the size of the buildout with the size of the takeover.",
+      "video_tip": "Whiteboard 30s: GDP spend bar high, Employment/horsepower bar low. Caption: Different clocks."
+    },
+    {
+      "name": "Ethan Mollick",
+      "handle": "@emollick",
+      "views": 15167,
+      "url": "https://x.com/emollick/status/2104920813111505335",
+      "hook": "Mollick: cloud Clawlike assistants with real virtual computers look like the personal-AI path; Apple's on-device limited Siri bet looks wrong.",
+      "highlight": true,
+      "draft_en": "Ethan Mollick's read on personal AI lines up with how I use agents day to day: the winning shape looks like a cloud assistant with a real virtual computer, not a sealed on-device Siri with capped tools.\n\nClaw-like setups that can browse, write files, and run code change what \"personal AI\" means. On-device limits protect privacy and latency, but they also freeze the product below the capability bar users now taste elsewhere.\n\nThe product tension is real:\n- Local: tighter secrets, weaker tools\n- Cloud VM: stronger agency, bigger trust boundary\n\nIf you are building personal agents, decide which constraint you are optimizing. Pretending on-device Siri-class limits will match cloud computer agents is how you lose the next two years.",
+      "video_tip": "Two columns: On-device limited vs Cloud VM agent. Circle capability gap. 30 seconds."
+    }
+  ],
+  "reply_now": [
+    {
+      "handle": "@HamelHusain",
+      "name": "Hamel Husain",
+      "url": "https://x.com/HamelHusain/status/2104945863084904737",
+      "views": 4475,
+      "age_label": "42m",
+      "age_hours": 0.71,
+      "reply_draft": "Look at data before the workflow writes evals. Broad judges that bundle failure modes are how teams hillclimb the wrong thing. Build a tiny annotation UI with the coding agent, then scope one failure mode at a time."
+    },
+    {
+      "handle": "@hwchase17",
+      "name": "Harrison Chase",
+      "url": "https://x.com/hwchase17/status/2104940633018577400",
+      "views": 3314,
+      "age_label": "1.1h",
+      "age_hours": 1.06,
+      "reply_draft": "The org-harness gap is multiplayer auth and memory, not another agent loop. Personal agents can stay single-principal. Company OS needs audit, admin control, and event-driven runs before it deserves the name."
+    },
+    {
+      "handle": "@jxnlco",
+      "name": "jason",
+      "url": "https://x.com/jxnlco/status/2104929713550713162",
+      "views": 10774,
+      "age_label": "1.8h",
+      "age_hours": 1.78,
+      "reply_draft": "Dev Day is useful if you walk in with three measurement questions: unassisted loop completion, tool permission model, and eval defaults. Otherwise it is stage lighting."
+    },
+    {
+      "handle": "@emollick",
+      "name": "Ethan Mollick",
+      "url": "https://x.com/emollick/status/2104920813111505335",
+      "views": 15167,
+      "age_label": "2.4h",
+      "age_hours": 2.37,
+      "reply_draft": "Agree on the shape. Cloud assistants with a real VM beat sealed on-device Siri for personal agents. The trade is a sharper trust boundary, so put secrets and egress policy outside the sandbox from day one."
+    },
+    {
+      "handle": "@HamelHusain",
+      "name": "Hamel Husain",
+      "url": "https://x.com/HamelHusain/status/2104790174618316854",
+      "views": 10376,
+      "age_label": "11.0h",
+      "age_hours": 11.03,
+      "reply_draft": "Vendor eval plugins are idea generators, not the workflow. Data first, narrow judges, own annotation loop. If the agent asks \"does this look right\" without enough evidence, stop and label."
+    },
+    {
+      "handle": "@emollick",
+      "name": "Ethan Mollick",
+      "url": "https://x.com/emollick/status/2104787162210435095",
+      "views": 92755,
+      "age_label": "11.2h",
+      "age_hours": 11.22,
+      "reply_draft": "Keep a sticky absurd prompt across model generations. Same request, measurable change in recovery and humor. Cheap capability probes beat one-off wow clips."
+    },
+    {
+      "handle": "@hwchase17",
+      "name": "Harrison Chase",
+      "url": "https://x.com/hwchase17/status/2104701729120157766",
+      "views": 14935,
+      "age_label": "16.9h",
+      "age_hours": 16.88,
+      "reply_draft": "Coding harness to personal harness to org harness is the right ladder. Do not slide-deck a company OS before one human can finish real work unassisted across sessions."
+    },
+    {
+      "handle": "@hwchase17",
+      "name": "Harrison Chase",
+      "url": "https://x.com/hwchase17/status/2104696039550963757",
+      "views": 12480,
+      "age_label": "17.3h",
+      "age_hours": 17.26,
+      "reply_draft": "Sandbox is hands, harness is brains. Keep them separate. Secrets never live as env vars inside the sandbox filesystem."
+    }
+  ],
+  "virals": [
+    {
+      "name": "OpenAI",
+      "handle": "@OpenAI",
+      "views": 14560924,
+      "url": "https://x.com/OpenAI/status/2104651136699609518",
+      "hook": "OpenAI cryptic \"Get ready\" teaser image (launch-week theater; massive reach)."
+    },
+    {
+      "name": "Claude",
+      "handle": "@claudeai",
+      "views": 10139407,
+      "url": "https://x.com/claudeai/status/2104633115620823187",
+      "hook": "Claude.ai: Introducing Claude Sonnet 5.5 (faster, up to 30% cheaper per task)."
+    },
+    {
+      "name": "Jensen Huang",
+      "handle": "@JensenHuang",
+      "views": 9834563,
+      "url": "https://x.com/JensenHuang/status/2104499465055023424",
+      "hook": "Jensen Huang launches NVIDIA Open Agent Safety Platform (OpenShell + Sentry) with 100+ partners."
+    },
+    {
+      "name": "ClaudeDevs",
+      "handle": "@ClaudeDevs",
+      "views": 1389864,
+      "url": "https://x.com/ClaudeDevs/status/2104676099083190435",
+      "hook": "ClaudeDevs: Claude can help build evaluations and hillclimb on them."
+    },
+    {
+      "name": "OpenAI",
+      "handle": "@OpenAI",
+      "views": 682594,
+      "url": "https://x.com/OpenAI/status/2104934336206430527",
+      "hook": "OpenAI: \"10am PT, on the dot.\" (same-day drop clock)."
+    },
+    {
+      "name": "Varun Anand",
+      "handle": "@vxanand",
+      "views": 633881,
+      "url": "https://x.com/vxanand/status/2104576879415988453",
+      "hook": "Clay ships a company-wide AI writing policy (stand behind every sentence; writing is thinking)."
+    },
+    {
+      "name": "Anthropic",
+      "handle": "@AnthropicAI",
+      "views": 548051,
+      "url": "https://x.com/AnthropicAI/status/2104633259925630995",
+      "hook": "AnthropicAI: Claude Sonnet 5.5 now available."
+    },
+    {
+      "name": "OpenAI",
+      "handle": "@OpenAI",
+      "views": 460091,
+      "url": "https://x.com/OpenAI/status/2104815409522483470",
+      "hook": "OpenAI on securing frontier RL training runs (safety-case writeup)."
+    },
+    {
+      "name": "Lenny Rachitsky",
+      "handle": "@lennysan",
+      "views": 428755,
+      "url": "https://x.com/lennysan/status/2102422882341322779",
+      "hook": "Lenny's Newsletter: advanced evals sequel with Hamel and Shreya (Ramp/Shopify/Harvey/Cursor numbers)."
+    },
+    {
+      "name": "Oliver Prompts",
+      "handle": "@oliviscusAI",
+      "views": 385939,
+      "url": "https://x.com/oliviscusAI/status/2104534255636513268",
+      "hook": "PageIndex tree-RAG claim: no vector DB/embeddings/chunking; FinanceBench-style results circulating."
+    },
+    {
+      "name": "Assaf Elovic",
+      "handle": "@assaf_elovic",
+      "views": 237922,
+      "url": "https://x.com/assaf_elovic/status/2104562754774303203",
+      "hook": "GPT Researcher swaps embeddings for Jev: 73% vs 46% relevant context on research tasks."
+    },
+    {
+      "name": "NVIDIA",
+      "handle": "@nvidia",
+      "views": 167814,
+      "url": "https://x.com/nvidia/status/2104500679351877979",
+      "hook": "NVIDIA: agents take on more critical work; Open Agent Safety Platform aims at stronger boundaries."
+    }
+  ],
+  "patterns": [
+    "Agent sandboxing goes mainstream: NVIDIA OpenShell + Sentry; Ng/Chase insist harness stays outside sandbox",
+    "Claude Sonnet 5.5 launch: free-tier capability jump on claude.ai; iterate-feel praised (Alex Albert, Simon)",
+    "Harness ladder: coding -> personal -> org/company OS (multiplayer auth, audit, event-driven)",
+    "Retrieval as decision: Jev vs embeddings in GPT Researcher (73% vs 46% relevant context)",
+    "Tree/PageIndex RAG nostalgia: Jerry Liu \"4 years too early\" on gpt tree index",
+    "Evals praxis: Hamel critiques Anthropic auto-eval workflow (data-first, narrow judges, own annotation UI)",
+    "Personal AI shape: cloud VM/Clawlike assistants vs on-device limited Siri (Mollick)",
+    "Macro: AI GDP spend vs railroad-era employment/horsepower diffusion gap (Mollick)",
+    "Corp writing policy: Clay AI writing rules amplified by Hamel",
+    "Launch theater: OpenAI Get ready / 10am PT clock printing views ahead of Dev Day week"
+  ],
+  "day_roster": [
+    {
+      "handle": "@AndrewYNg",
+      "name": "Andrew Ng",
+      "views": 200250,
+      "total_views": 200250,
+      "hits": 1,
+      "hit": true
+    },
+    {
+      "handle": "@simonw",
+      "name": "Simon Willison",
+      "views": 135520,
+      "total_views": 208604,
+      "hits": 2,
+      "hit": true
+    },
+    {
+      "handle": "@emollick",
+      "name": "Ethan Mollick",
+      "views": 92755,
+      "total_views": 172353,
+      "hits": 4,
+      "hit": true
+    },
+    {
+      "handle": "@swyx",
+      "name": "swyx",
+      "views": 55048,
+      "total_views": 55048,
+      "hits": 1,
+      "hit": true
+    },
+    {
+      "handle": "@hwchase17",
+      "name": "Harrison Chase",
+      "views": 42038,
+      "total_views": 69453,
+      "hits": 3,
+      "hit": true
+    },
+    {
+      "handle": "@jerryjliu0",
+      "name": "Jerry Liu",
+      "views": 38924,
+      "total_views": 45981,
+      "hits": 2,
+      "hit": true
+    },
+    {
+      "handle": "@alexalbert__",
+      "name": "Alex Albert",
+      "views": 36632,
+      "total_views": 36632,
+      "hits": 1,
+      "hit": true
+    },
+    {
+      "handle": "@HamelHusain",
+      "name": "Hamel Husain",
+      "views": 25053,
+      "total_views": 40552,
+      "hits": 3,
+      "hit": true
+    },
+    {
+      "handle": "@jxnlco",
+      "name": "jason",
+      "views": 10774,
+      "total_views": 10774,
+      "hits": 1,
+      "hit": true
+    },
+    {
+      "handle": "@_philschmid",
+      "name": "Philipp Schmid",
+      "views": 0,
+      "total_views": 0,
+      "hits": 0,
+      "hit": false
+    },
+    {
+      "handle": "@DrJimFan",
+      "name": "Jim Fan",
+      "views": 0,
+      "total_views": 0,
+      "hits": 0,
+      "hit": false
+    },
+    {
+      "handle": "@eugeneyan",
+      "name": "Eugene Yan",
+      "views": 0,
+      "total_views": 0,
+      "hits": 0,
+      "hit": false
+    },
+    {
+      "handle": "@karpathy",
+      "name": "Andrej Karpathy",
+      "views": 0,
+      "total_views": 0,
+      "hits": 0,
+      "hit": false
+    },
+    {
+      "handle": "@maxgoff",
+      "name": "Max Goff",
+      "views": 0,
+      "total_views": 0,
+      "hits": 0,
+      "hit": false,
+      "is_you": true
+    },
+    {
+      "handle": "@sh_reya",
+      "name": "Shreya Shankar",
+      "views": 0,
+      "total_views": 0,
+      "hits": 0,
+      "hit": false
+    }
+  ],
+  "you_rank": {
+    "best_views": null,
+    "total_views": null,
+    "posts": 0,
+    "rank_among_watchlist": null,
+    "total_accounts": 15,
+    "note": "No original @maxgoff posts in the 24h window (last original: Sep 26).",
+    "vs_5k": "pending",
+    "vs_10k": "pending"
+  },
+  "leaderboards": {
+    "as_of": "2026-09-29",
+    "tracking_start": "2026-09-26",
+    "days_included": [
+      "2026-09-26",
+      "2026-09-27",
+      "2026-09-28",
+      "2026-09-29"
+    ],
+    "month_days_included": [
+      "2026-09-26",
+      "2026-09-27",
+      "2026-09-28",
+      "2026-09-29"
+    ],
+    "week": {
+      "label": "Rolling week · Sep 26–Sep 29",
+      "range": [
+        "2026-09-26",
+        "2026-09-29"
+      ],
+      "entries": [
+        {
+          "handle": "@emollick",
+          "name": "Ethan Mollick",
+          "hits": 26,
+          "days": 4,
+          "views": 1349429,
+          "best": 374114,
+          "best_url": "https://x.com/emollick/status/2104273082433081732"
+        },
+        {
+          "handle": "@simonw",
+          "name": "Simon Willison",
+          "hits": 6,
+          "days": 3,
+          "views": 879952,
+          "best": 547279,
+          "best_url": "https://x.com/simonw/status/2103288927805476900"
+        },
+        {
+          "handle": "@swyx",
+          "name": "swyx",
+          "hits": 3,
+          "days": 2,
+          "views": 325121,
+          "best": 246939,
+          "best_url": "https://x.com/swyx/status/2103223477130129726"
+        },
+        {
+          "handle": "@sh_reya",
+          "name": "Shreya Shankar",
+          "hits": 3,
+          "days": 2,
+          "views": 276003,
+          "best": 263924,
+          "best_url": "https://x.com/sh_reya/status/2103207153821688056"
+        },
+        {
+          "handle": "@AndrewYNg",
+          "name": "Andrew Ng",
+          "hits": 1,
+          "days": 1,
+          "views": 200250,
+          "best": 200250,
+          "best_url": "https://x.com/AndrewYNg/status/2104660347730969087"
+        },
+        {
+          "handle": "@jerryjliu0",
+          "name": "Jerry Liu",
+          "hits": 10,
+          "days": 4,
+          "views": 188802,
+          "best": 57506,
+          "best_url": "https://x.com/jerryjliu0/status/2103582466070265869"
+        },
+        {
+          "handle": "@hwchase17",
+          "name": "Harrison Chase",
+          "hits": 4,
+          "days": 2,
+          "views": 87227,
+          "best": 42038,
+          "best_url": "https://x.com/hwchase17/status/2104610254000635952"
+        },
+        {
+          "handle": "@jxnlco",
+          "name": "jason",
+          "hits": 6,
+          "days": 3,
+          "views": 82945,
+          "best": 34998,
+          "best_url": "https://x.com/jxnlco/status/2103620752910217427"
+        },
+        {
+          "handle": "@HamelHusain",
+          "name": "Hamel Husain",
+          "hits": 7,
+          "days": 3,
+          "views": 75800,
+          "best": 25053,
+          "best_url": "https://x.com/HamelHusain/status/2104600057307935151"
+        },
+        {
+          "handle": "@_philschmid",
+          "name": "Philipp Schmid",
+          "hits": 4,
+          "days": 1,
+          "views": 75687,
+          "best": 32411,
+          "best_url": "https://x.com/_philschmid/status/2103145386542014788"
+        },
+        {
+          "handle": "@alexalbert__",
+          "name": "Alex Albert",
+          "hits": 1,
+          "days": 1,
+          "views": 36632,
+          "best": 36632,
+          "best_url": "https://x.com/alexalbert__/status/2104633937280811010"
+        }
+      ]
+    },
+    "month": {
+      "label": "September 2026 · from Sep 26",
+      "range": [
+        "2026-09-26",
+        "2026-09-29"
+      ],
+      "entries": [
+        {
+          "handle": "@emollick",
+          "name": "Ethan Mollick",
+          "hits": 26,
+          "days": 4,
+          "views": 1349429,
+          "best": 374114,
+          "best_url": "https://x.com/emollick/status/2104273082433081732"
+        },
+        {
+          "handle": "@simonw",
+          "name": "Simon Willison",
+          "hits": 6,
+          "days": 3,
+          "views": 879952,
+          "best": 547279,
+          "best_url": "https://x.com/simonw/status/2103288927805476900"
+        },
+        {
+          "handle": "@swyx",
+          "name": "swyx",
+          "hits": 3,
+          "days": 2,
+          "views": 325121,
+          "best": 246939,
+          "best_url": "https://x.com/swyx/status/2103223477130129726"
+        },
+        {
+          "handle": "@sh_reya",
+          "name": "Shreya Shankar",
+          "hits": 3,
+          "days": 2,
+          "views": 276003,
+          "best": 263924,
+          "best_url": "https://x.com/sh_reya/status/2103207153821688056"
+        },
+        {
+          "handle": "@AndrewYNg",
+          "name": "Andrew Ng",
+          "hits": 1,
+          "days": 1,
+          "views": 200250,
+          "best": 200250,
+          "best_url": "https://x.com/AndrewYNg/status/2104660347730969087"
+        },
+        {
+          "handle": "@jerryjliu0",
+          "name": "Jerry Liu",
+          "hits": 10,
+          "days": 4,
+          "views": 188802,
+          "best": 57506,
+          "best_url": "https://x.com/jerryjliu0/status/2103582466070265869"
+        },
+        {
+          "handle": "@hwchase17",
+          "name": "Harrison Chase",
+          "hits": 4,
+          "days": 2,
+          "views": 87227,
+          "best": 42038,
+          "best_url": "https://x.com/hwchase17/status/2104610254000635952"
+        },
+        {
+          "handle": "@jxnlco",
+          "name": "jason",
+          "hits": 6,
+          "days": 3,
+          "views": 82945,
+          "best": 34998,
+          "best_url": "https://x.com/jxnlco/status/2103620752910217427"
+        },
+        {
+          "handle": "@HamelHusain",
+          "name": "Hamel Husain",
+          "hits": 7,
+          "days": 3,
+          "views": 75800,
+          "best": 25053,
+          "best_url": "https://x.com/HamelHusain/status/2104600057307935151"
+        },
+        {
+          "handle": "@_philschmid",
+          "name": "Philipp Schmid",
+          "hits": 4,
+          "days": 1,
+          "views": 75687,
+          "best": 32411,
+          "best_url": "https://x.com/_philschmid/status/2103145386542014788"
+        },
+        {
+          "handle": "@alexalbert__",
+          "name": "Alex Albert",
+          "hits": 1,
+          "days": 1,
+          "views": 36632,
+          "best": 36632,
+          "best_url": "https://x.com/alexalbert__/status/2104633937280811010"
+        }
+      ]
+    }
+  },
+  "virals_window": "last ~48h (limited scan; some quoted context slightly older)",
+  "virals_target": 20,
+  "outsiders_count": 13,
+  "_pages_note": "Compact pages payload: top hits trimmed fields; full board in data.json"
+}
