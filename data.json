@@ -1,4 +1,5 @@
 {
+  "_pages_note": "Trimmed for GitHub Pages: top 12 hits + full reply_now drafts; full digests under digests/.",
   "brand_title": "Max Goff X Virality Score",
   "brand_handle": "@maxgoff",
   "operator": {
@@ -25,399 +26,362 @@
     "no_hits_reasons": true,
     "marker_class": "xvs-dash-2026"
   },
-  "title": "Daily X narrative digest — 2026-09-30",
-  "date": "2026-09-30",
+  "title": "Daily X narrative digest — 2026-10-01",
+  "date": "2026-10-01",
   "timezone": "America/Chicago",
-  "updated": "2026-09-30T10:30:05-05:00",
-  "hits_count": 26,
-  "total_views": 727795,
+  "updated": "2026-10-01T10:32:51-05:00",
   "hits": [
     {
-      "name": "Simon Willison",
-      "handle": "@simonw",
-      "views": 110215,
-      "url": "https://x.com/simonw/status/2104978193946124370",
-      "hook": "Simon Willison is live-blogging OpenAI DevDay 2026 again; this remains the fastest way to track the keynote without the marketing filter.",
-      "highlight": true,
-      "draft_en": "Simon Willison is live-blogging OpenAI DevDay again, the same move he has made for the past few events.\n\nIf you only have one feed today, use his chronological notes. Vendor pages sell the product. A live blog captures what actually shipped, what slipped, and which demos were stage-only.\n\nWhat I extract from DevDay live blogs:\n1. Which agent surfaces are generally available vs preview\n2. Permission and sandbox language (or the absence of it)\n3. Pricing and free-tier capability changes that alter who can run real loops\n\nScreenshot the announcements later. Read the timeline first.",
-      "video_tip": "Open simonwillison.net live blog for 8s, then notepad: GA vs preview / Permissions / Price. 25 seconds."
+      "name": "jason",
+      "handle": "@jxnlco",
+      "views": 93596,
+      "url": "https://x.com/jxnlco/status/2105521231462371683",
+      "hook": "Jason Liu: the Codex app shipped in February; product packaging is catching up to tools builders already had.",
+      "draft_en": "Jason's reminder that the Codex app came out in February is the right hangover after DevDay.\n\nCapability often lands months before the polished surface. Builders who wired Codex into pinned tasks, memory repos, and local automations already had most of what Dot/Space demos show.\n\nPractical takeaway:\n1. Do not wait for the branded agent product if the underlying model and tool APIs exist\n2. Keep your harness portable so a new app shell is distribution, not a rewrite\n3. Measure unassisted task completion, not fidelity to the keynote UI\n\nIf your roadmap only starts when the cute avatar ships, you are already late.",
+      "video_tip": "Flash Jason text 5s, then notepad: API/tools first / App shell later. Caption: Package lags capability. 25 seconds.",
+      "highlight": true
     },
     {
       "name": "Ethan Mollick",
       "handle": "@emollick",
-      "views": 78804,
-      "url": "https://x.com/emollick/status/2105052282354303358",
-      "hook": "Mollick: open-weights models will soon match closed-model security threats, without the same guardrails. Plan for that.",
-      "highlight": true,
-      "draft_en": "Ethan Mollick's warning is the right framing even if you discount Anthropic's incentives: open-weights models are closing on the same misuse patterns closed models already show, without the same product guardrails.\n\nFor agent builders that means:\n- Treat open weights as a capability that will be widely available, not a niche research artifact\n- Put secrets, egress, and tool allowlists outside the model\n- Assume any local agent with file and network access needs the same sandbox story as a cloud agent\n\nIf your threat model still says \"open models are weaker so they are safer,\" update it.",
-      "video_tip": "MEDIA WARNING: two images attached; X CDN blocked download (403), could not inspect chart/content. Talk to camera 25s: Open weights = same threats, fewer product rails. Point at sandbox checklist."
+      "views": 73356,
+      "url": "https://x.com/emollick/status/2105388608240677142",
+      "hook": "Mollick on Gemini 4 Argon: the frontier race is 3-way again after OpenAI's DevDay week.",
+      "draft_en": "Ethan Mollick's one-liner on Gemini 4 Argon is correct: after DevDay it looked like a two-horse show for a day, and Google just reopened a three-way frontier race.\n\nFor agent builders the useful reaction is not team jersey. It is:\n- Re-run your hardest long-horizon coding and knowledge-work tasks when Argon opens beyond Fairwind\n- Compare output-token headroom (1M) against your current loop budgets\n- Watch intro pricing ($2/$10) vs Opus-class rates before you lock a vendor\n\nKeep the harness model-swappable. Race headlines expire. Integration cost does not.",
+      "video_tip": "MEDIA WARNING: quote includes media from @OfficialLoganK; X CDN blocked download (403), could not inspect chart/image. Talk to camera 25s: 3-way frontier again. Note Fairwind-first access and 1M output tokens.",
+      "highlight": true
     },
     {
-      "name": "Ethan Mollick",
-      "handle": "@emollick",
-      "views": 63760,
-      "url": "https://x.com/emollick/status/2104965679971709108",
-      "hook": "Mollick contrasts last year's DevDay agent vision with OpenClaw-style swarms: labs keep underestimating how fast product shapes get scraped.",
-      "highlight": true,
-      "draft_en": "Ethan Mollick's DevDay recap point is useful: OpenAI's agent product vision from last year already looks outdated next to OpenClaw-style self-organizing swarms.\n\nTwo takeaways for builders:\n1. Capability and product packaging move at different speeds; do not bet your architecture on one keynote diagram\n2. Labs are not always first to notice which interaction pattern actually sticks\n\nKeep your harness swappable. Measure unassisted task completion, not fidelity to last year's mockups.",
-      "video_tip": "MEDIA WARNING: image attached; X CDN blocked download (403), could not see the old agents diagram. Flash post text 5s, then whiteboard: Keynote diagram vs What users actually loop on. 25 seconds."
+      "name": "Philipp Schmid",
+      "handle": "@_philschmid",
+      "views": 66384,
+      "url": "https://x.com/_philschmid/status/2105388546118864926",
+      "hook": "philschmid: Gemini 4 Argon announces 1M output tokens and $2/$10 intro pricing; Fairwind cyber defenders first.",
+      "draft_en": "Philipp Schmid's Argon summary is the builder card you need: up to 1M output tokens (from 64K), $2 in / $10 out at launch, trusted partners first, developer access \"as soon as possible.\"\n\nThat output ceiling matters more than the blog adjectives. Long agent trajectories that previously needed multi-call stitching may fit one pass. Price only helps if your harness can swap models without rewriting tools.\n\nWhen Argon opens to paid API, run three jobs you already measure on Astra/Opus: a multi-file fix, a long doc synthesis, and a tool-heavy research loop. Keep scores, not vibes.",
+      "video_tip": "MEDIA WARNING: photos attached; X CDN blocked download (403), could not see pricing/benchmark graphics. Whiteboard 30s: 64K -> 1M out / $2-$10 intro / Fairwind first. Caption: Test when API opens.",
+      "highlight": true
     },
     {
-      "name": "Andrew Ng",
-      "handle": "@AndrewYNg",
-      "views": 59728,
-      "url": "https://x.com/AndrewYNg/status/2104967263757713432",
-      "hook": "Andrew Ng: Workera is being acquired by Pearson; skills measurement gets more important as AI changes roles.",
-      "highlight": true,
-      "draft_en": "Andrew Ng congratulating the Workera–Pearson deal is mostly M&A news, but the underlying thesis still matters for agent teams.\n\nSkills measurement that is task-real, not credential-real, is how you decide where agents should assist versus replace steps. Vague \"AI upskilling\" programs without measurement become slideshows.\n\nPractical move: pick three job workflows in your org, define observable skill checkpoints, and instrument whether agents move those checkpoints. Acquisition headlines do not do that work for you.",
-      "video_tip": "Talking-head 25s: three sticky notes for workflows, write Measure checkpoints under each. Caption: Skills data > acquisition PR."
-    },
-    {
-      "name": "Ethan Mollick",
-      "handle": "@emollick",
-      "views": 44694,
-      "url": "https://x.com/emollick/status/2105184972537528538",
-      "hook": "Mollick: ChatGPT's product surface is overlapping again (Dot, Spaces, Pages, Work, scheduled tasks local and cloud).",
-      "highlight": true,
-      "draft_en": "Ethan Mollick is right that ChatGPT's product surface is confusing again: Dot, Spaces, Pages, Work, plus scheduled tasks in the cloud and on your computer.\n\nFragmentation tax is real for builders and users. Every new surface needs a clear job-to-be-done and a permission model. Overlap without that becomes support debt and abandoned plugins.\n\nMy rule for shipping adjacent agent UIs:\n- One primary loop that finishes real work\n- Explicit where memory and files live\n- Kill or merge anything that duplicates that loop within 90 days\n\nIf users cannot explain which surface to open, you shipped a menu, not a product.",
-      "video_tip": "Whiteboard 30s: list Dot / Spaces / Pages / Work / Schedulers. Circle one Primary loop. Cross out duplicates."
-    },
-    {
-      "name": "Hamel Husain",
-      "handle": "@HamelHusain",
-      "views": 42440,
-      "url": "https://x.com/HamelHusain/status/2104989577874489371",
-      "hook": "Hamel points at Simon's DevDay live blog as the most time-efficient way to track launches.",
-      "highlight": true,
-      "draft_en": "Hamel amplifying Simon's DevDay live blog is the correct allocation of attention on launch day.\n\nMost \"recap\" threads are delayed marketing. A live chronological blog is closer to a primary source. Bookmark it, skim for GA vs preview, then decide what to actually test in your harness.\n\nDo not rebuild your agent stack from a keynote reaction video.",
-      "video_tip": "Show Hamel's quote + Simon URL for 8s. Caption: Live notes > recap threads. 20 seconds."
-    },
-    {
-      "name": "Hamel Husain",
-      "handle": "@HamelHusain",
-      "views": 35891,
-      "url": "https://x.com/HamelHusain/status/2104987928254628051",
-      "hook": "Hamel: NVIDIA/Hugging Face ship a general-purpose pretrained tabular/regression model (Kumo) he had called for.",
-      "highlight": true,
-      "draft_en": "Hamel's \"Wow they did it\" on the NVIDIA–Hugging Face Kumo tabular model is a reminder that narrow pretrained heads still matter.\n\nAgent stacks keep reaching for a general LLM to do ranking, regression, and structured prediction that a purpose-built tabular model may do cheaper and more reliably. Keep a lane for specialist models next to the LLM orchestrator.\n\nWhen the task is \"predict on a table,\" start with a tabular baseline before you wrap it in an agent loop.",
-      "video_tip": "Flash HF Kumo blog title 6s, then notepad: LLM orchestrator + specialist tabular head. 25 seconds."
+      "name": "swyx",
+      "handle": "@swyx",
+      "views": 55801,
+      "url": "https://x.com/swyx/status/2105538561672085751",
+      "hook": "swyx calls out The Information for cropping TypeSafe's logo off a YouTube clip in a $1B+ raise story.",
+      "draft_en": "Shawn's attribution rant is not gossip. It is a distribution hygiene check for anyone covering AI startups.\n\nIf you crop a logo off a simple YouTube video and skip credit while writing up a $1B raise narrative, you teach the industry that packaging beats provenance. Builders should not copy that habit in demos, launch videos, or quote-posts.\n\nRule I use: if the clip is not yours, say whose it is in the first line. Reach without attribution is just borrowed trust.",
+      "video_tip": "MEDIA WARNING: images attached (side-by-side crop comparison); X CDN blocked download (403), could not verify the crop. Talking-head 20s: Credit the source in line one. Skip pile-on; make the norm clear.",
+      "highlight": true
     },
     {
       "name": "jason",
       "handle": "@jxnlco",
-      "views": 35544,
-      "url": "https://x.com/jxnlco/status/2105172266787213541",
-      "hook": "Jason quote-posts Alexandr Wang with empty text and a video; engagement without an argument.",
-      "highlight": true,
-      "draft_en": "Jason's empty quote-post of Alexandr Wang's joke is mostly distribution theater.\n\nHigh views on a media-only quote tell you the account has reach. They do not tell you what to ship. Skip these for substance. If you engage, add a concrete builder take or do not quote-post at all.\n\nEmpty quote-posts train your audience to expect vibes. That is expensive when you later need them to read eval notes.",
-      "video_tip": "MEDIA WARNING: video quote with empty caption; X CDN blocked media (403), could not watch. Do not amplify; skip or add a 1-line builder take. 15s talking-head: Reach without thesis is not a post."
+      "views": 46373,
+      "url": "https://x.com/jxnlco/status/2105335286528119089",
+      "hook": "Jason: you can replicate most Dot/Space workflows with vanilla Codex, pinned tasks, and a shared GitHub memory vault.",
+      "draft_en": "Jason laying out the \"vanilla Codex\" stack is the most useful DevDay counterweight.\n\nPinned heartbeat tasks, a GitHub memory vault with agents.md files, mini apps for artifacts, and 1:1 setup for technical and non-technical teammates. That is an agent OS without waiting for Dot to become your system of record.\n\nIf \"yo Dot whats new\" is enough for you, use it. If you need durable team memory and local automations, keep the repo-backed harness. Dot can sit on top. It should not own the only copy of how work gets done.",
+      "video_tip": "Notepad 30s: Pinned tasks / agents.md vault / mini apps / 1:1 setup. Caption: Dot is UI. Repo is memory.",
+      "highlight": true
     },
     {
       "name": "Ethan Mollick",
       "handle": "@emollick",
-      "views": 34828,
-      "url": "https://x.com/emollick/status/2105042717432799701",
-      "hook": "Mollick: OpenAI keeps relaunching third-party ecosystems (Plugins, GPTs, Apps, Plugins again) and semi-abandoning them.",
-      "highlight": true,
-      "draft_en": "Ethan Mollick's ecosystem timeline is the hangover after every DevDay: Plugins, GPTs and the GPT Store, Apps, and now Plugins again under a new meaning.\n\nFor builders this is a platform-risk checklist, not nostalgia:\n- Prefer portable tool interfaces (MCP-style, your own API) over store-only distribution\n- Keep customer workflows runnable outside ChatGPT UI\n- Treat each marketplace generation as distribution, not as your system of record\n\nIf your product dies when OpenAI renames the store, you built on a billboard.",
-      "video_tip": "Timeline graphic 30s: 2023 Plugins -> GPTs -> Apps -> 2026 Plugins. Caption: Distribution, not system of record."
+      "views": 39257,
+      "url": "https://x.com/emollick/status/2105370153466863709",
+      "hook": "Mollick: customer service will get flooded by Dots and Muses negotiating deals by voice and chat.",
+      "draft_en": "Ethan Mollick's customer-service warning is already an ops problem, not a sci-fi slide.\n\nIf personal agents start negotiating bills and bookings at scale, every support queue needs agent-detectable identity, rate limits, and a human escalation path that is not just \"prove you are not a bot\" theater.\n\nBuilder checklist:\n- Separate \"user intent\" from \"agent acting for user\" in logs\n- Cap concurrent agent sessions per account\n- Decide which concessions an automated negotiator is allowed to grant\n\nThe viral savings stories will arrive before the fraud and denial-of-service stories. Design for both.",
+      "video_tip": "Talking-head 25s: sticky notes Agent identity / Rate limits / Escalation. Caption: Prep support for agent callers.",
+      "highlight": true
     },
     {
       "name": "Ethan Mollick",
       "handle": "@emollick",
-      "views": 28553,
-      "url": "https://x.com/emollick/status/2105000480569212984",
-      "hook": "Mollick's early Dots take: Clawlike cloud assistant with your data is useful; detailed review still pending.",
-      "highlight": true,
-      "draft_en": "Ethan Mollick's early Dots note matches the pattern that is working for personal agents: a capable model with durable access to your context, sitting in the same Clawlike category as Muse and similar cloud assistants.\n\nThe useful bar is not the brand name. It is whether the agent finishes recurring work without constant babysitting, and whether permissions are explicit.\n\nBefore you standardize on Dots (or any peer):\n1. Run one week of real recurring tasks\n2. Log every permission prompt and every silent failure\n3. Check whether memory helps or invents\n\nA second opinion with your data is valuable. An always-on agent with fuzzy permissions is a support queue.",
-      "video_tip": "Notepad 25s: Recurring tasks / Permission log / Memory accuracy. Caption: Test the week, not the keynote."
+      "views": 36353,
+      "url": "https://x.com/emollick/status/2105367451584323642",
+      "hook": "Mollick amplifies Acemoglu: who decides what happens with AI is the central governance question.",
+      "draft_en": "Ethan pointing at Daron Acemoglu's \"who decides\" thread is the right altitude after a week of product launches.\n\nFrontier demos answer what models can do. They do not answer who sets deployment defaults, liability, or which jobs get automated first. Democratic input is messy. Vendor defaults without input are also a decision.\n\nFor practitioners: document who inside your company can enable agent tools that spend money, change accounts, or talk to customers. Governance is a permission matrix, not a manifesto quote-post.",
+      "video_tip": "Flash Acemoglu quote 6s, then whiteboard: Who can spend / Who can message customers / Who can change prod. 25 seconds.",
+      "highlight": true
+    },
+    {
+      "name": "jason",
+      "handle": "@jxnlco",
+      "views": 32377,
+      "url": "https://x.com/jxnlco/status/2105321619283730592",
+      "hook": "Jason reacts to OpenAI skipping the \"o\" naming gag on a model; low substance, high DevDay humor reach.",
+      "draft_en": "Jason's \"LMA-O\" quote is pure DevDay meme energy, not a product thesis.\n\nFine for the timeline. Skip it for learning. If you engage, add a real builder note (what shipped, what is preview, what broke in your harness) or do not amplify empty joke quotes.",
+      "video_tip": "Skip or 10s talking-head: Memes lag shipping notes. Prefer GA vs preview posts.",
+      "highlight": true
     },
     {
       "name": "Hamel Husain",
       "handle": "@HamelHusain",
-      "views": 26790,
-      "url": "https://x.com/HamelHusain/status/2104992333293080610",
-      "hook": "Hamel flags Sign in with ChatGPT at DevDay: users auth into your app with tokens they already pay for.",
-      "highlight": true,
-      "draft_en": "Hamel highlighting Sign in with ChatGPT is one of the more consequential DevDay distribution details.\n\nLetting users bring the tokens they already pay OpenAI for into your app changes the cold-start economics. It also concentrates lock-in: your auth path and their model spend share a vendor.\n\nIf you adopt it:\n- Keep a non-OpenAI auth and inference path for customers who need it\n- Be explicit about what scopes the ChatGPT sign-in grants your agent\n- Price assuming the subsidized path may change\n\nDistribution win. Architecture still needs an exit.",
-      "video_tip": "Talking-head 25s: two doors labeled ChatGPT sign-in and Independent auth. Caption: Ship both."
+      "views": 30601,
+      "url": "https://x.com/HamelHusain/status/2105471347736682953",
+      "hook": "Hamel reviews Claude's new Auto Eval / hillclimb plugin: strong one-shot issue discovery, still inspect the data.",
+      "draft_en": "Hamel's writeup on Claude's Auto Eval plugin is the eval post worth reading this week.\n\nHe saw strong out-of-the-box discovery on human handoff, formatting, and voice-agent failures, and still insists on iterative human data review. That balance is correct. Auto hillclimb with train/test split and revert-on-overfit is useful. Blind trust in the grader is how you ship a nicer benchmark and a worse product.\n\nTry build-eval on one real failure mode you already know. Compare Claude's findings to your last manual error analysis before you automate the whole loop.",
+      "video_tip": "MEDIA WARNING: screenshots attached; X CDN blocked download (403), could not inspect UI. Flash hamel.dev URL 5s, then notepad: Discover issues / Inspect judgments / Held-out check. 30 seconds.",
+      "highlight": true
+    },
+    {
+      "name": "jason",
+      "handle": "@jxnlco",
+      "views": 22608,
+      "url": "https://x.com/jxnlco/status/2105353198294929438",
+      "hook": "Jason's DevDay cashmere bit: high reach joke about looking \"ill\" after the event.",
+      "draft_en": "Jason's cashmere / \"you look ill\" bit is DevDay afterparty content.\n\nHarmless, not actionable. Skip for quote-posts unless you have a real conference take. Save the reply budget for evals, agent surfaces, and model access posts.",
+      "video_tip": "Skip. If you must: 10s \"Conference jokes vs shipping notes\" and move on.",
+      "highlight": true
+    },
+    {
+      "name": "jason",
+      "handle": "@jxnlco",
+      "views": 22229,
+      "url": "https://x.com/jxnlco/status/2105333080588456310",
+      "hook": "Jason wants a calendar app for Codex because he is off today; agent scheduling is still underserved.",
+      "draft_en": "Jason asking for a Codex calendar app is a product gap in one line.\n\nAlways-on agents without shared calendars, quiet hours, and human-approved windows will spam and collide. If you are building agent ops, schedule and concurrency controls are near the top of the list after permissions.\n\nShip: quiet hours, max concurrent runs, and a calendar the agent must read before booking anything.",
+      "video_tip": "Whiteboard 20s: Quiet hours / Max concurrency / Shared calendar. Caption: Agents need schedules.",
+      "highlight": true
     },
     {
       "name": "Ethan Mollick",
       "handle": "@emollick",
-      "views": 22004,
-      "url": "https://x.com/emollick/status/2104964210644181230",
-      "hook": "Mollick on AI and jobs: aggregate labor impact still unclear; agents that do real work may accelerate change.",
-      "highlight": true,
-      "draft_en": "Ethan Mollick's read on the AI labor literature is the cautious one I trust: aggregate unemployment effects are still muted, junior hiring in exposed roles may already be soft, and agents that finish real work could move the needle faster than chat alone.\n\nFor agent builders, the metric that matters inside a company is tasks completed without a human in the loop, not macro unemployment charts.\n\nInstrument:\n- Which workflows lost a junior step\n- Which workflows gained a reviewer step\n- Cost and error rates after the change\n\nDebate the macro papers. Ship instrumentation for your own workflows.",
-      "video_tip": "Whiteboard 30s: Macro papers vs Internal task completion. Circle the second."
+      "views": 22024,
+      "url": "https://x.com/emollick/status/2105326918371537067",
+      "hook": "Mollick: frontier labs can ship half-built products because the model improvises like an embedded forward-deployed engineer.",
+      "draft_en": "Ethan Mollick's line about half-built products working because the model improvises is the uncomfortable truth of agent demos.\n\nIt is also why production breaks. Improvisation covers missing edge cases on stage and invents unsafe tool use in the wild. Your job is to remove the need for heroics: tight tools, explicit schemas, evals on the ugly cases demos skip.\n\nIf a feature only works when the model \"figures it out,\" you do not have a product. You have a lucky transcript.",
+      "video_tip": "Talking-head 25s: Demo improvisation vs Production schema. Caption: Remove the need for heroics.",
+      "highlight": true
     }
   ],
+  "hits_count": 19,
+  "total_views": 639301,
   "reply_now": [
     {
       "handle": "@HamelHusain",
       "name": "Hamel Husain",
-      "url": "https://x.com/HamelHusain/status/2105311756260090191",
-      "views": 725,
-      "age_label": "25m",
-      "age_hours": 0.43,
-      "reply_draft": "Broad exploration first, then failure-signal sampling, and keep a random slice in every batch. That mix is how we still find unknown failure modes instead of only reconfirming the ones we already named."
-    },
-    {
-      "handle": "@_philschmid",
-      "name": "Philipp Schmid",
-      "url": "https://x.com/_philschmid/status/2105299152796029055",
-      "views": 1673,
-      "age_label": "1.3h",
-      "age_hours": 1.27,
-      "reply_draft": "Unified Interactions-style endpoints help if background execution and state are explicit. I still keep tool allowlists and secrets outside the managed loop so a platform rename does not become my security boundary."
+      "url": "https://x.com/HamelHusain/status/2105674106683134290",
+      "views": 736,
+      "age_hours": 0.47,
+      "age_label": "28m",
+      "reply_draft": "Cost-weighting evals before you automate every failure mode is the part most teams skip. I have burned weeks on LLM-judge suites for bugs that a 20-line assertion would catch. Start with code checks for the cheap failures, reserve judges for the fuzzy ones, and only then expand coverage."
     },
     {
       "handle": "@emollick",
       "name": "Ethan Mollick",
-      "url": "https://x.com/emollick/status/2105184972537528538",
-      "views": 44694,
-      "age_label": "8.8h",
-      "age_hours": 8.83,
-      "reply_draft": "Agree the ChatGPT surface is overlapping again. Ship one primary loop with clear memory location, then merge or kill duplicates on a 90-day clock. Menus without a job-to-be-done become support debt."
-    },
-    {
-      "handle": "@jerryjliu0",
-      "name": "Jerry Liu",
-      "url": "https://x.com/jerryjliu0/status/2105130496921628882",
-      "views": 12899,
-      "age_label": "12.4h",
-      "age_hours": 12.43,
-      "reply_draft": "System-one heads for orientation, language, classify, and split are the right place to spend latency budget. We keep frontier models for hard extraction only and re-bench the cascade when prices move."
-    },
-    {
-      "handle": "@sh_reya",
-      "name": "Shreya Shankar",
-      "url": "https://x.com/sh_reya/status/2105113415715098624",
-      "views": 13464,
-      "age_label": "13.6h",
-      "age_hours": 13.57,
-      "reply_draft": "Decisions API fits online enums and routing. For OLAP-style classify-and-aggregate I want warehouse-local batch jobs with labeled slices, not a 150ms Luna call pretending to be the analytics plane."
-    },
-    {
-      "handle": "@emollick",
-      "name": "Ethan Mollick",
-      "url": "https://x.com/emollick/status/2105052282354303358",
-      "views": 78804,
-      "age_label": "17.6h",
-      "age_hours": 17.61,
-      "reply_draft": "Plan as if open weights will match closed-model misuse without product rails. Secrets, egress, and tool allowlists belong outside the weights, same as for any capable local agent."
-    },
-    {
-      "handle": "@hwchase17",
-      "name": "Harrison Chase",
-      "url": "https://x.com/hwchase17/status/2105046322269315362",
-      "views": 15541,
-      "age_label": "18.0h",
-      "age_hours": 18.01,
-      "reply_draft": "Harness as offering beats harness as micromanager. Give each subagent its own tools and permissions, and let the supervisor schedule. Smarter models need clearer menus, not fewer boundaries."
-    },
-    {
-      "handle": "@emollick",
-      "name": "Ethan Mollick",
-      "url": "https://x.com/emollick/status/2105042717432799701",
-      "views": 34828,
-      "age_label": "18.2h",
-      "age_hours": 18.25,
-      "reply_draft": "Treat each OpenAI marketplace generation as distribution, not system of record. Keep portable tools and workflows that still run if the store gets renamed again next year."
-    }
-  ],
-  "virals": [
-    {
-      "name": "OpenAI",
-      "handle": "@OpenAI",
-      "views": 11816606,
-      "url": "https://x.com/OpenAI/status/2104984504133918973",
-      "hook": "OpenAI launches Dots: always-on GPT-6 Astra agents with cloud computers (~11.8M views)."
-    },
-    {
-      "name": "OpenAI",
-      "handle": "@OpenAI",
-      "views": 2726194,
-      "url": "https://x.com/OpenAI/status/2104986129686741046",
-      "hook": "OpenAI: GPT-6.1 Sol near-Astra intelligence at roughly one-fifth Astra price (~2.7M views)."
-    },
-    {
-      "name": "OpenAI",
-      "handle": "@OpenAI",
-      "views": 1002182,
-      "url": "https://x.com/OpenAI/status/2104993966043320759",
-      "hook": "OpenAI Ultrafast speed tier: up to 8x token generation for Astra (Sol Ultrafast coming)."
-    },
-    {
-      "name": "OpenAI Developers",
-      "handle": "@OpenAIDevs",
-      "views": 637803,
-      "url": "https://x.com/OpenAIDevs/status/2105003318917697873",
-      "hook": "OpenAIDevs: Decisions API (GPT-6 Luna) for finite-choice classify/route/next-action; limited preview."
-    },
-    {
-      "name": "OpenAI",
-      "handle": "@OpenAI",
-      "views": 479431,
-      "url": "https://x.com/OpenAI/status/2104987422308335828",
-      "hook": "OpenAI Codex Security Cloud upgrade with cyber-capable models via Daybreak."
-    },
-    {
-      "name": "Alexandr Wang",
-      "handle": "@alexandr_wang",
-      "views": 355622,
-      "url": "https://x.com/alexandr_wang/status/2105112851459559843",
-      "hook": "Alexandr Wang joke post that jason quote-posted empty (high reach, low substance)."
-    },
-    {
-      "name": "Alfred Wahlforss",
-      "handle": "@itsalfredw",
-      "views": 331689,
-      "url": "https://x.com/itsalfredw/status/2105025703490298016",
-      "hook": "Listen Labs joining Salesforce (AI customer interviewing/understanding platform)."
-    },
-    {
-      "name": "Anthropic",
-      "handle": "@AnthropicAI",
-      "views": 241372,
-      "url": "https://x.com/AnthropicAI/status/2104982629884063840",
-      "hook": "Anthropic Interviewer study: what do you want from AI? (same-day as DevDay noise)."
-    },
-    {
-      "name": "Michele Catasta",
-      "handle": "@pirroh",
-      "views": 229474,
-      "url": "https://x.com/pirroh/status/2104976589180252218",
-      "hook": "pirroh long-form on harness shifting from deciding to offering (quoted by Chase/deepagents)."
-    },
-    {
-      "name": "Rhys",
-      "handle": "@RhysSullivan",
-      "views": 139744,
-      "url": "https://x.com/RhysSullivan/status/2104990367615742283",
-      "hook": "RhysSullivan: labs building deep at app layer; company knowledge lock-in risk (Chase: No)."
-    },
-    {
-      "name": "kian",
-      "handle": "@kiankatan",
-      "views": 55584,
-      "url": "https://x.com/kiankatan/status/2104964333310787993",
-      "hook": "Kian Katan: Workera acquired by Pearson (skills measurement + AI assessments)."
-    },
-    {
-      "name": "Jacob Schaal",
-      "handle": "@FutureEconJacob",
-      "views": 54923,
-      "url": "https://x.com/FutureEconJacob/status/2104938124371529888",
-      "hook": "FutureEconJacob thread: AI labor impact not yet clear in aggregate; junior hiring soft spots."
-    }
-  ],
-  "patterns": [
-    "OpenAI DevDay 2026: Dots (always-on Astra agents), GPT-6.1 Sol, Ultrafast, Decisions API, Plugin extensions, Codex Security Cloud",
-    "ChatGPT product surface fragmentation: Dot / Spaces / Pages / Work / scheduled tasks (Mollick, Jason)",
-    "Third-party ecosystem churn: Plugins -> GPTs -> Apps -> Plugins again (Mollick)",
-    "Harness shifts from deciding to offering; deepagents subagents with own model/tools/permissions (Chase / pirroh)",
-    "System-one / Jev for fast document decisions; Sol 6.1 OCR table/reading-order gains (Jerry / LlamaIndex)",
-    "Decisions API vs OLAP-style AI data ops; Quail AI.CLASSIFY teaser (Shreya)",
-    "Open-weights security threat convergence without closed-model guardrails (Mollick)",
-    "Sign in with ChatGPT / token portability as distribution + lock-in (Hamel)",
-    "M&A: Workera-Pearson; Listen Labs-Salesforce",
-    "Gemini Enterprise Agent Platform Interactions API (philschmid; early, below hit floor)"
-  ],
-  "day_roster": [
-    {
-      "handle": "@simonw",
-      "name": "Simon Willison",
-      "views": 110215,
-      "total_views": 110215,
-      "hits": 1,
-      "hit": true
-    },
-    {
-      "handle": "@emollick",
-      "name": "Ethan Mollick",
-      "views": 78804,
-      "total_views": 272643,
-      "hits": 6,
-      "hit": true
-    },
-    {
-      "handle": "@AndrewYNg",
-      "name": "Andrew Ng",
-      "views": 59728,
-      "total_views": 59728,
-      "hits": 1,
-      "hit": true
-    },
-    {
-      "handle": "@HamelHusain",
-      "name": "Hamel Husain",
-      "views": 42440,
-      "total_views": 115573,
-      "hits": 4,
-      "hit": true
+      "url": "https://x.com/emollick/status/2105618164944146786",
+      "views": 18803,
+      "age_hours": 4.18,
+      "age_label": "4.2h",
+      "reply_draft": "Self-organization is exactly what I underestimated in agent loops too. The failure mode I hit is not \"swarm too dumb,\" it is \"swarm too willing\" spawning tool calls I never authorized. Permissions and spend caps have to live outside the model's confidence or Bitter Lesson throughput becomes surprise invoices."
     },
     {
       "handle": "@jxnlco",
       "name": "jason",
-      "views": 35544,
-      "total_views": 75167,
-      "hits": 6,
+      "url": "https://x.com/jxnlco/status/2105561095931072654",
+      "views": 14562,
+      "age_hours": 7.96,
+      "age_label": "8.0h",
+      "reply_draft": "Separate app, or at least a hard mode with its own memory and approvals. ChatGPT already overlaps Spaces, Pages, Work, and schedulers. Dropping always-on Dots into that pile without a primary loop will create support debt faster than it creates leverage."
+    },
+    {
+      "handle": "@jxnlco",
+      "name": "jason",
+      "url": "https://x.com/jxnlco/status/2105521231462371683",
+      "views": 93596,
+      "age_hours": 10.6,
+      "age_label": "10.6h",
+      "reply_draft": "This matches what I see shipping agents: the useful Codex workflows existed months before the polished shell. If your plan waits for the branded app, you are optimizing for marketing, not for unassisted task completion. Portable harness first, avatar later."
+    },
+    {
+      "handle": "@HamelHusain",
+      "name": "Hamel Husain",
+      "url": "https://x.com/HamelHusain/status/2105471347736682953",
+      "views": 30601,
+      "age_hours": 13.9,
+      "age_label": "13.9h",
+      "reply_draft": "Your \"inspect the judgments\" caveat is the load-bearing part. I will try build-eval on one failure mode I already diagnosed by hand and compare findings before trusting hillclimb on a full suite. Auto discovery is useful. Blind grader trust is how you ship a prettier benchmark."
+    },
+    {
+      "handle": "@_philschmid",
+      "name": "Philipp Schmid",
+      "url": "https://x.com/_philschmid/status/2105388546118864926",
+      "views": 66384,
+      "age_hours": 19.38,
+      "age_label": "19.4h",
+      "reply_draft": "1M output tokens is the number that changes agent architecture, not the adjective stack. When Argon opens past Fairwind I will rerun three measured jobs I already track on Astra/Opus: multi-file fix, long doc synthesis, tool-heavy research. Keep the harness swappable; race takes expire."
+    },
+    {
+      "handle": "@emollick",
+      "name": "Ethan Mollick",
+      "url": "https://x.com/emollick/status/2105370153466863709",
+      "views": 39257,
+      "age_hours": 20.6,
+      "age_label": "20.6h",
+      "reply_draft": "This is already an ops design problem. If Dots and Muses start negotiating bills at scale, support needs agent-detectable identity, concurrency caps, and a human escalation path that is not CAPTCHA theater. The viral savings clips will beat the abuse writeups by weeks."
+    },
+    {
+      "handle": "@jxnlco",
+      "name": "jason",
+      "url": "https://x.com/jxnlco/status/2105335286528119089",
+      "views": 46373,
+      "age_hours": 22.91,
+      "age_label": "22.9h",
+      "reply_draft": "The vanilla Codex setup you describe (pinned heartbeats, agents.md vault, mini apps, 1:1 teammate onboarding) is still the durable pattern. Dot can be the friendly front door. It should not be the only copy of how the team remembers and automates work."
+    }
+  ],
+  "patterns": [
+    "Gemini 4 Argon launch: Fairwind cyber defenders first, 1M output tokens, $2/$10 intro (Google / Logan / philschmid / Mollick)",
+    "Post-DevDay three-way frontier race narrative (OpenAI Dots week + Google Argon day)",
+    "Dots product packaging: separate app vs ChatGPT bundle; vanilla Codex can replicate Dot/Space workflows (Jason)",
+    "Always-on agents (Dots / Muse) will flood customer service with automated negotiators (Mollick)",
+    "Self-organizing swarms / Bitter Lesson underrated; permission and spend caps must sit outside model confidence (Mollick Substack)",
+    "Claude Auto Eval + hillclimb plugin: strong one-shot discovery, still inspect judgments (Hamel + ClaudeDevs)",
+    "Eval FAQ: do not automate every failure mode; cost-weight code vs LLM judges (Hamel)",
+    "TypeSafe / Jev fundraising narrative and media attribution hygiene on startup clips (swyx / The Information)",
+    "Hardware version-control analogy: Flow Series B for irreversible engineering pipelines (swyx)",
+    "Governance: who decides AI deployment defaults (Acemoglu via Mollick)",
+    "DevDay artifact culture: Game Boy x Codex giveaway origin (Jason / Ko Kuramoto)"
+  ],
+  "virals": [
+    {
+      "name": "Google",
+      "handle": "@Google",
+      "views": 7730634,
+      "url": "https://x.com/Google/status/2105388143902175529",
+      "hook": "Google announces Gemini 4 Argon: frontier long-horizon model; Fairwind cyber defenders first (~7.7M views)."
+    },
+    {
+      "name": "Sam Altman",
+      "handle": "@sama",
+      "views": 1889074,
+      "url": "https://x.com/sama/status/2104995014208258235",
+      "hook": "Sam Altman: Dots are here: always-on agents (slightly outside 24h watchlist window, ~48h radar)."
+    },
+    {
+      "name": "Logan Kilpatrick",
+      "handle": "@OfficialLoganK",
+      "views": 1371876,
+      "url": "https://x.com/OfficialLoganK/status/2105388054274080946",
+      "hook": "Logan Kilpatrick: Gemini 4 Argon intro for cyber defenders, $2/$10 intro pricing (~1.4M views)."
+    },
+    {
+      "name": "ClaudeDevs",
+      "handle": "@ClaudeDevs",
+      "views": 1216799,
+      "url": "https://x.com/ClaudeDevs/status/2105391694741119047",
+      "hook": "ClaudeDevs: Claude.dev new developer home for Claude engineering docs/tools (~1.2M views)."
+    },
+    {
+      "name": "Google",
+      "handle": "@Google",
+      "views": 908628,
+      "url": "https://x.com/Google/status/2105331451294314809",
+      "hook": "Google: skills in GeminiApp to automate repetitive tasks (~0.9M views)."
+    },
+    {
+      "name": "Anthropic",
+      "handle": "@AnthropicAI",
+      "views": 284176,
+      "url": "https://x.com/AnthropicAI/status/2104982629884063840",
+      "hook": "Anthropic Interviewer study: what do you want from AI? (carried from DevDay week, still circulating)."
+    },
+    {
+      "name": "OpenAI Developers",
+      "handle": "@OpenAIDevs",
+      "views": 119296,
+      "url": "https://x.com/OpenAIDevs/status/2105073596611830252",
+      "hook": "OpenAIDevs DevDay developer tools roundup thread."
+    },
+    {
+      "name": "Daron Acemoglu",
+      "handle": "@DAcemogluMIT",
+      "views": 104850,
+      "url": "https://x.com/DAcemogluMIT/status/2105348579187699989",
+      "hook": "Acemoglu: who decides what happens with AI? (quoted by Mollick; democratic input thesis)."
+    },
+    {
+      "name": "OpenAI Developers",
+      "handle": "@OpenAIDevs",
+      "views": 73918,
+      "url": "https://x.com/OpenAIDevs/status/2105365703654310113",
+      "hook": "OpenAIDevs: shareable profiles for Sites and plugins in ChatGPT."
+    },
+    {
+      "name": "Ethan Mollick",
+      "handle": "@emollick",
+      "views": 18847,
+      "url": "https://x.com/emollick/status/2105618164944146786",
+      "hook": "Mollick Substack cross-post on Dot/swarm self-organization (also a watchlist hit)."
+    },
+    {
+      "name": "The Information",
+      "handle": "@theinformation",
+      "views": 16417,
+      "url": "https://x.com/theinformation/status/2105432671589453943",
+      "hook": "The Information: camera-roll context for AI assistants."
+    },
+    {
+      "name": "The Information",
+      "handle": "@theinformation",
+      "views": 13416,
+      "url": "https://x.com/theinformation/status/2105422675673821582",
+      "hook": "The Information: OpenAI wants enterprise; DevDay still felt consumer."
+    }
+  ],
+  "virals_window": "last ~48h (limited scan; some quoted context slightly older)",
+  "virals_target": 20,
+  "outsiders_count": 13,
+  "day_roster": [
+    {
+      "handle": "@jxnlco",
+      "name": "jason",
+      "views": 93596,
+      "total_views": 283139,
+      "hits": 10,
       "hit": true
     },
     {
-      "handle": "@hwchase17",
-      "name": "Harrison Chase",
-      "views": 18085,
-      "total_views": 40670,
-      "hits": 3,
+      "handle": "@emollick",
+      "name": "Ethan Mollick",
+      "views": 73356,
+      "total_views": 189793,
+      "hits": 5,
+      "hit": true
+    },
+    {
+      "handle": "@_philschmid",
+      "name": "Philipp Schmid",
+      "views": 66384,
+      "total_views": 66384,
+      "hits": 1,
       "hit": true
     },
     {
       "handle": "@swyx",
       "name": "swyx",
-      "views": 14222,
-      "total_views": 20569,
+      "views": 55801,
+      "total_views": 69384,
       "hits": 2,
       "hit": true
     },
     {
-      "handle": "@sh_reya",
-      "name": "Shreya Shankar",
-      "views": 13464,
-      "total_views": 13464,
+      "handle": "@HamelHusain",
+      "name": "Hamel Husain",
+      "views": 30601,
+      "total_views": 30601,
       "hits": 1,
       "hit": true
     },
     {
-      "handle": "@jerryjliu0",
-      "name": "Jerry Liu",
-      "views": 12899,
-      "total_views": 19766,
-      "hits": 2,
-      "hit": true
-    },
-    {
-      "handle": "@_philschmid",
-      "name": "Philipp Schmid",
-      "views": 1673,
+      "handle": "@alexalbert__",
+      "name": "Alex Albert",
+      "views": 0,
       "total_views": 0,
       "hits": 0,
       "hit": false
     },
     {
-      "handle": "@maxgoff",
-      "name": "Max Goff",
-      "views": 1,
-      "total_views": 0,
-      "hits": 0,
-      "hit": false,
-      "is_you": true
-    },
-    {
-      "handle": "@alexalbert__",
-      "name": "Alex Albert",
+      "handle": "@AndrewYNg",
+      "name": "Andrew Ng",
       "views": 0,
       "total_views": 0,
       "hits": 0,
@@ -440,8 +404,49 @@
       "hit": false
     },
     {
+      "handle": "@hwchase17",
+      "name": "Harrison Chase",
+      "views": 0,
+      "total_views": 0,
+      "hits": 0,
+      "hit": false
+    },
+    {
+      "handle": "@jerryjliu0",
+      "name": "Jerry Liu",
+      "views": 0,
+      "total_views": 0,
+      "hits": 0,
+      "hit": false
+    },
+    {
       "handle": "@karpathy",
       "name": "Andrej Karpathy",
+      "views": 0,
+      "total_views": 0,
+      "hits": 0,
+      "hit": false
+    },
+    {
+      "handle": "@maxgoff",
+      "name": "Max Goff",
+      "views": 0,
+      "total_views": 0,
+      "hits": 0,
+      "hit": false,
+      "is_you": true
+    },
+    {
+      "handle": "@sh_reya",
+      "name": "Shreya Shankar",
+      "views": 0,
+      "total_views": 0,
+      "hits": 0,
+      "hit": false
+    },
+    {
+      "handle": "@simonw",
+      "name": "Simon Willison",
       "views": 0,
       "total_views": 0,
       "hits": 0,
@@ -449,45 +454,42 @@
     }
   ],
   "you_rank": {
-    "best_views": 1,
-    "total_views": 1,
-    "posts": 1,
-    "rank_among_watchlist": 11,
+    "best_views": null,
+    "note": "No original @maxgoff posts in the 24h window (last original: Sep 30).",
+    "posts": 0,
+    "rank_among_watchlist": null,
     "total_accounts": 15,
-    "vs_5k": "below",
-    "vs_10k": "below",
-    "note": "1 original @maxgoff post(s) in the 24h window; best 1 views."
+    "total_views": null,
+    "vs_10k": "pending",
+    "vs_5k": "pending"
   },
   "leaderboards": {
-    "as_of": "2026-09-30",
+    "as_of": "2026-10-01",
     "tracking_start": "2026-09-26",
     "days_included": [
       "2026-09-26",
       "2026-09-27",
       "2026-09-28",
       "2026-09-29",
-      "2026-09-30"
+      "2026-09-30",
+      "2026-10-01"
     ],
     "month_days_included": [
-      "2026-09-26",
-      "2026-09-27",
-      "2026-09-28",
-      "2026-09-29",
-      "2026-09-30"
+      "2026-10-01"
     ],
     "week": {
-      "label": "Rolling week · Sep 26–Sep 30",
+      "label": "Rolling week · Sep 26–Oct 1",
       "range": [
         "2026-09-26",
-        "2026-09-30"
+        "2026-10-01"
       ],
       "entries": [
         {
           "handle": "@emollick",
           "name": "Ethan Mollick",
-          "hits": 32,
-          "days": 5,
-          "views": 1622072,
+          "hits": 37,
+          "days": 6,
+          "views": 1811865,
           "best": 374114,
           "best_url": "https://x.com/emollick/status/2104273082433081732"
         },
@@ -501,11 +503,20 @@
           "best_url": "https://x.com/simonw/status/2103288927805476900"
         },
         {
+          "handle": "@jxnlco",
+          "name": "jason",
+          "hits": 22,
+          "days": 5,
+          "views": 441251,
+          "best": 93596,
+          "best_url": "https://x.com/jxnlco/status/2105521231462371683"
+        },
+        {
           "handle": "@swyx",
           "name": "swyx",
-          "hits": 5,
-          "days": 3,
-          "views": 345690,
+          "hits": 7,
+          "days": 4,
+          "views": 415074,
           "best": 246939,
           "best_url": "https://x.com/swyx/status/2103223477130129726"
         },
@@ -528,6 +539,15 @@
           "best_url": "https://x.com/AndrewYNg/status/2104660347730969087"
         },
         {
+          "handle": "@HamelHusain",
+          "name": "Hamel Husain",
+          "hits": 12,
+          "days": 5,
+          "views": 221974,
+          "best": 42440,
+          "best_url": "https://x.com/HamelHusain/status/2104989577874489371"
+        },
+        {
           "handle": "@jerryjliu0",
           "name": "Jerry Liu",
           "hits": 12,
@@ -537,22 +557,13 @@
           "best_url": "https://x.com/jerryjliu0/status/2103582466070265869"
         },
         {
-          "handle": "@HamelHusain",
-          "name": "Hamel Husain",
-          "hits": 11,
-          "days": 4,
-          "views": 191373,
-          "best": 42440,
-          "best_url": "https://x.com/HamelHusain/status/2104989577874489371"
-        },
-        {
-          "handle": "@jxnlco",
-          "name": "jason",
-          "hits": 12,
-          "days": 4,
-          "views": 158112,
-          "best": 35544,
-          "best_url": "https://x.com/jxnlco/status/2105172266787213541"
+          "handle": "@_philschmid",
+          "name": "Philipp Schmid",
+          "hits": 5,
+          "days": 2,
+          "views": 142071,
+          "best": 66384,
+          "best_url": "https://x.com/_philschmid/status/2105388546118864926"
         },
         {
           "handle": "@hwchase17",
@@ -562,15 +573,6 @@
           "views": 127897,
           "best": 42038,
           "best_url": "https://x.com/hwchase17/status/2104610254000635952"
-        },
-        {
-          "handle": "@_philschmid",
-          "name": "Philipp Schmid",
-          "hits": 4,
-          "days": 1,
-          "views": 75687,
-          "best": 32411,
-          "best_url": "https://x.com/_philschmid/status/2103145386542014788"
         },
         {
           "handle": "@alexalbert__",
@@ -584,116 +586,58 @@
       ]
     },
     "month": {
-      "label": "September 2026 · from Sep 26",
+      "label": "October 2026 · from Oct 1",
       "range": [
-        "2026-09-26",
-        "2026-09-30"
+        "2026-10-01",
+        "2026-10-01"
       ],
       "entries": [
         {
-          "handle": "@emollick",
-          "name": "Ethan Mollick",
-          "hits": 32,
-          "days": 5,
-          "views": 1622072,
-          "best": 374114,
-          "best_url": "https://x.com/emollick/status/2104273082433081732"
+          "handle": "@jxnlco",
+          "name": "jason",
+          "hits": 10,
+          "days": 1,
+          "views": 283139,
+          "best": 93596,
+          "best_url": "https://x.com/jxnlco/status/2105521231462371683"
         },
         {
-          "handle": "@simonw",
-          "name": "Simon Willison",
-          "hits": 7,
-          "days": 4,
-          "views": 990167,
-          "best": 547279,
-          "best_url": "https://x.com/simonw/status/2103288927805476900"
+          "handle": "@emollick",
+          "name": "Ethan Mollick",
+          "hits": 5,
+          "days": 1,
+          "views": 189793,
+          "best": 73356,
+          "best_url": "https://x.com/emollick/status/2105388608240677142"
         },
         {
           "handle": "@swyx",
           "name": "swyx",
-          "hits": 5,
-          "days": 3,
-          "views": 345690,
-          "best": 246939,
-          "best_url": "https://x.com/swyx/status/2103223477130129726"
-        },
-        {
-          "handle": "@sh_reya",
-          "name": "Shreya Shankar",
-          "hits": 4,
-          "days": 3,
-          "views": 289467,
-          "best": 263924,
-          "best_url": "https://x.com/sh_reya/status/2103207153821688056"
-        },
-        {
-          "handle": "@AndrewYNg",
-          "name": "Andrew Ng",
           "hits": 2,
-          "days": 2,
-          "views": 259978,
-          "best": 200250,
-          "best_url": "https://x.com/AndrewYNg/status/2104660347730969087"
-        },
-        {
-          "handle": "@jerryjliu0",
-          "name": "Jerry Liu",
-          "hits": 12,
-          "days": 5,
-          "views": 208568,
-          "best": 57506,
-          "best_url": "https://x.com/jerryjliu0/status/2103582466070265869"
-        },
-        {
-          "handle": "@HamelHusain",
-          "name": "Hamel Husain",
-          "hits": 11,
-          "days": 4,
-          "views": 191373,
-          "best": 42440,
-          "best_url": "https://x.com/HamelHusain/status/2104989577874489371"
-        },
-        {
-          "handle": "@jxnlco",
-          "name": "jason",
-          "hits": 12,
-          "days": 4,
-          "views": 158112,
-          "best": 35544,
-          "best_url": "https://x.com/jxnlco/status/2105172266787213541"
-        },
-        {
-          "handle": "@hwchase17",
-          "name": "Harrison Chase",
-          "hits": 7,
-          "days": 3,
-          "views": 127897,
-          "best": 42038,
-          "best_url": "https://x.com/hwchase17/status/2104610254000635952"
+          "days": 1,
+          "views": 69384,
+          "best": 55801,
+          "best_url": "https://x.com/swyx/status/2105538561672085751"
         },
         {
           "handle": "@_philschmid",
           "name": "Philipp Schmid",
-          "hits": 4,
-          "days": 1,
-          "views": 75687,
-          "best": 32411,
-          "best_url": "https://x.com/_philschmid/status/2103145386542014788"
-        },
-        {
-          "handle": "@alexalbert__",
-          "name": "Alex Albert",
           "hits": 1,
           "days": 1,
-          "views": 36632,
-          "best": 36632,
-          "best_url": "https://x.com/alexalbert__/status/2104633937280811010"
+          "views": 66384,
+          "best": 66384,
+          "best_url": "https://x.com/_philschmid/status/2105388546118864926"
+        },
+        {
+          "handle": "@HamelHusain",
+          "name": "Hamel Husain",
+          "hits": 1,
+          "days": 1,
+          "views": 30601,
+          "best": 30601,
+          "best_url": "https://x.com/HamelHusain/status/2105471347736682953"
         }
       ]
     }
-  },
-  "virals_window": "last ~48h (limited scan; some quoted context slightly older)",
-  "virals_target": 20,
-  "outsiders_count": 15,
-  "_pages_note": "Compact pages payload: top hits trimmed fields; full board in local data.json / digest composed.json"
+  }
 }
